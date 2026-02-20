@@ -19,15 +19,15 @@ body:has(.form:hover) {
 
 
     body:has(.login:hover){
-        background-color: skyblue;
+        background-color: rgba(135, 207, 235, 0.3);
     }
 
         body:has(.na:hover){
-        background-color: rgb(52, 122, 52);
+        background-color: rgba(52, 122, 52, 0.3);
     }
 
             body:has(.fp:hover){
-        background-color: rgb(212, 81, 81);
+        background-color: rgba(212, 81, 81, 0.3);
     }
 
 .form {
@@ -40,13 +40,13 @@ body:has(.form:hover) {
     padding: 20px 0 0 0;
     box-shadow: 5px 5px 6px 6px black;
     transition: 1s;
-    border-radius: 30% 0% 30% 0%;
+    border-radius: 35% 10px 35% 10px;
 }
 
 .form:hover {
     background-color: white;
     box-shadow: -5px -5px 6px 6px black;
-    border-radius: 0% 30% 0% 30%;
+    border-radius: 10px 35% 10px 35%;
 }
 
 .input {
@@ -58,13 +58,14 @@ body:has(.form:hover) {
     outline: 1px solid black;
     box-shadow: 5px 5px 5px 0px blue;
     transition: 1s;
-    border-radius: 0% 30% 0% 30%;
+    border-radius: 2px 35% 2px 35%;
+    background-color: rgba(114, 153, 148, 0.5);
 }
 
 .input:hover {
     outline: 1px solid blue;
     box-shadow: -5px -5px 5px 0px black;
-    border-radius: 30% 0% 30% 0%;
+    border-radius: 35% 2px 35% 2px;
 }
 
 input::placeholder {
@@ -82,14 +83,14 @@ input::placeholder {
     border: none;
     box-shadow: 5px 5px 5px 0px lightblue;
     transition: 1s;
-    border-radius: 0% 30% 0% 30%;
+    border-radius: 2px 35% 2px 35%;
 }
 
 .login:hover {
     background-color: lightblue;
     box-shadow: -5px -5px 5px 0px blue;
     color: black;
-    border-radius: 30% 0% 30% 0%;
+    border-radius: 35% 2px 35% 2px;
 }
 
 .na {
@@ -103,14 +104,14 @@ input::placeholder {
     padding: 10px;
     box-shadow: 5px 5px 5px 0px lightgreen;
     transition: 1s;
-    border-radius: 0% 30% 0% 30%;
+    border-radius: 2px 30% 2px 30%;
 }
 
 .na:hover {
     background-color: lightgreen;
     box-shadow: -5px -5px 5px 0px green;
     color: black;
-    border-radius: 30% 0% 30% 0%;
+    border-radius: 35% 2px 35% 2px;
 }
 
 .fp {
